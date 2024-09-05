@@ -10,7 +10,7 @@ const Projects = () => {
             <div className="projects-container">
                 <div className="project-card">
                     <img src="./assets/project-1.png" alt="Project One" className="project-img" />
-                    <h2>Project One</h2>
+                    <h2>Open Aid</h2>
                     <div className="project-btns">
                         <button onClick={() => window.open('https://github.com', '_blank')}>Github</button>
                         <button onClick={() => window.open('https://github.com', '_blank')}>Live Demo</button>
@@ -18,7 +18,7 @@ const Projects = () => {
                 </div>
                 <div className="project-card">
                     <img src="./assets/project-2.png" alt="Project Two" className="project-img" />
-                    <h2>Project Two</h2>
+                    <h2>Blood Bound</h2>
                     <div className="project-btns">
                         <button onClick={() => window.open('https://github.com', '_blank')}>Github</button>
                         <button onClick={() => window.open('https://github.com', '_blank')}>Live Demo</button>
@@ -26,7 +26,7 @@ const Projects = () => {
                 </div>
                 <div className="project-card">
                     <img src="./assets/project-3.png" alt="Project Three" className="project-img" />
-                    <h2>Project Three</h2>
+                    <h2>Traverse</h2>
                     <div className="project-btns">
                         <button onClick={() => window.open('https://github.com', '_blank')}>Github</button>
                         <button onClick={() => window.open('https://github.com', '_blank')}>Live Demo</button>

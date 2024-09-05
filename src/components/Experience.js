@@ -10,21 +10,21 @@ const Experience = () => {
                 <div className="experience-box">
                     <h3>Frontend Development</h3>
                     <ul>
-                        <li>✔ HTML - Experienced</li>
-                        <li>✔ CSS - Experienced</li>
+                        <li>✔ JavaScript - Experienced</li>
+                        <li>✔ React - Intermediate</li>
+                        <li>✔ Next.js - Basic</li>
+                        <li>✔ Tailwind CSS - Intermediate</li>
+                        <li>✔ TypeScript - Intermediate</li>
                         <li>✔ SASS - Intermediate</li>
-                        <li>✔ JavaScript - Basic</li>
-                        <li>✔ TypeScript - Basic</li>
-                        <li>✔ Material UI - Intermediate</li>
                     </ul>
                 </div>
                 <div className="experience-box">
                     <h3>Backend Development</h3>
                     <ul>
-                        <li>✔ PostgreSQL - Basic</li>
+                        <li>✔ MongoDB - Intermediate</li>
                         <li>✔ Node.js - Intermediate</li>
                         <li>✔ Express.js - Intermediate</li>
-                        <li>✔ Git - Intermediate</li>
+                        <li>✔ Git - Experienced</li>
                     </ul>
                 </div>
             </div>

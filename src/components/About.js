@@ -16,19 +16,16 @@ const About = () => {
                         <div className="details-box">
                             <img src="./assets/experience.png" alt="Experience icon" className="icon" />
                             <h3>Experience</h3>
-                            <p>2+ years<br />Frontend Development</p>
+                            <p>2+ years<br />Software Development</p>
                         </div>
                         <div className="details-box">
                             <img src="./assets/education.png" alt="Education icon" className="icon" />
                             <h3>Education</h3>
-                            <p>B.Sc. Bachelor's Degree<br />M.Sc. Master's Degree</p>
+                            <p>B.Sc. Computer Science<br /></p>
                         </div>
                     </div>
                     <p className="description">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic quis
-                        reprehenderit et laborum, rem, dolore eum quod voluptate exercitationem
-                        nobis, nihil esse debitis maxime facere minus sint delectus velit in eos
-                        quo officiis explicabo deleniti dignissimos.
+                        I am a CS student enrolled in my undergraduate program at Kathmandu University. I have a keen interest in areas such as web development, finance, FinTech, DevOps and Cyber Security. I am a driven individual with the ability to adapt effectively to various situations, aiming to contribute to personal growth as well as team development.
                     </p>
                 </div>
             </div>
