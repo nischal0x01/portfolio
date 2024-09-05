@@ -9,11 +9,11 @@ const Contact = () => {
             <div className="contact-info-container">
                 <div className="contact-card">
                     <img src="./assets/email.png" alt="Email" className="contact-icon" />
-                    <p><a href="mailto:example@gmail.com">Example@gmail.com</a></p>
+                    <p><a href="mailto:nischal1337@gmail.com">nischal1337@gmail.com</a></p>
                 </div>
                 <div className="contact-card">
                     <img src="./assets/linkedin.png" alt="LinkedIn" className="contact-icon" />
-                    <p><a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer">LinkedIn</a></p>
+                    <p><a href="https://www.linkedin.com/nischal0x01" target="_blank" rel="noopener noreferrer">LinkedIn</a></p>
                 </div>
             </div>
             <footer className="footer">
@@ -23,7 +23,7 @@ const Contact = () => {
                     <li><a href="#projects">Projects</a></li>
                     <li><a href="#contact">Contact</a></li>
                 </ul>
-                <p>Copyright © 2023 John Doe. All Rights Reserved.</p>
+                <p>Copyright © 2023 Nischal Subedi. All Rights Reserved.</p>
             </footer>
         </section>
     );

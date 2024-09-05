@@ -22,7 +22,7 @@ const Profile = () => (
         <div className="text-container">
             <p className="greeting">Hello, I'm</p>
             <h1 className="name">Nischal Subedi</h1>
-            <p className="title">Frontend Developer</p>
+            <p className="title">Software Engineer</p>
             <div className="btn-container">
                 <Button className="btn-download">Download CV</Button>
                 <Button className="btn-contact">Contact Info</Button>
@@ -31,12 +31,27 @@ const Profile = () => (
                 <SocialIcon
                     src="./assets/linkedin.png"
                     alt="My LinkedIn profile"
-                    link="https://linkedin.com/"
+                    link="https://linkedin.com/nischal0x01"
                 />
                 <SocialIcon
                     src="./assets/github.png"
                     alt="My Github profile"
-                    link="https://github.com/"
+                    link="https://github.com/nischal0x01"
+                />
+                <SocialIcon
+                    src="./assets/facebook.png"
+                    alt="My Facebook profile"
+                    link="https://facebook.com/nischal0x01"
+                />
+                <SocialIcon
+                    src="./assets/instagram.png"
+                    alt="My Instagram profile"
+                    link="https://instagram.com/nischal0x01"
+                />
+                <SocialIcon
+                    src="./assets/twitter.png"
+                    alt="My Twitter profile"
+                    link="https://twitter.com/nischal0x01"
                 />
             </div>
         </div>

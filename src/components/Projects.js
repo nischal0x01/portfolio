@@ -33,9 +33,7 @@ const Projects = () => {
                     </div>
                 </div>
             </div>
-            <Link to="#contact">
-                <img src="./assets/arrow.png" alt="Arrow icon" className="arrow" />
-            </Link>
+
         </section>
     );
 };
