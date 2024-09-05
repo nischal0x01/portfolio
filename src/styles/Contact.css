@@ -1,0 +1,67 @@
+.contact-section {
+    padding: 60px 0;
+    text-align: center;
+}
+
+.intro-text {
+    font-size: 18px;
+    color: #666;
+}
+
+.section-title {
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+
+.contact-info-container {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-bottom: 30px;
+}
+
+.contact-card {
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #f4f4f4;
+    width: 300px;
+}
+
+.contact-icon {
+    width: 40px;
+    margin-bottom: 15px;
+}
+
+.contact-card p a {
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+}
+
+.footer {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+.footer ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+
+.footer p {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #666;
+}

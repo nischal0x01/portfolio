@@ -1,0 +1,58 @@
+.projects-section {
+    padding: 60px 0;
+    text-align: center;
+}
+
+.intro-text {
+    font-size: 18px;
+    color: #666;
+}
+
+.section-title {
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+
+.projects-container {
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+}
+
+.project-card {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+    width: 300px;
+}
+
+.project-img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.project-card h2 {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.project-btns button {
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    border-radius: 25px;
+    background-color: #333;
+    color: white;
+    cursor: pointer;
+}
+
+.project-btns button:hover {
+    background-color: #555;
+}
+
+.arrow {
+    margin-top: 40px;
+    cursor: pointer;
+}

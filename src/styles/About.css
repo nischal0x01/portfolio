@@ -1,0 +1,62 @@
+.about-section {
+    padding: 10px 0;
+    text-align: center;
+}
+
+.intro-text {
+    font-size: 18px;
+    color: #666;
+}
+
+.section-title {
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+
+.about-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.pic-container {
+    flex: 1;
+}
+
+.about-pic {
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.details-section {
+    flex: 1;
+}
+
+.about-details {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.details-box {
+    text-align: center;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 10px;
+    width: 200px;
+}
+
+.details-box h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.description {
+    font-size: 16px;
+    color: #555;
+    margin-top: 20px;
+    text-align: left;
+}
+
