@@ -23,7 +23,7 @@ const Contact = () => {
                     <li><a href="#projects">Projects</a></li>
                     <li><a href="#contact">Contact</a></li>
                 </ul>
-                <p>Copyright © 2023 Nischal Subedi. All Rights Reserved.</p>
+
             </footer>
         </section>
     );

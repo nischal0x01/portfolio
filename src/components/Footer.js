@@ -15,7 +15,7 @@ const Footer = () => {
                     </ul>
                 </div>
             </nav>
-            <p>Copyright © 2023 Nischal Subedi. All Rights Reserved.</p>
+            <p>Copyright © 2024 Nischal Subedi. All Rights Reserved.</p>
         </footer>
     );
 };
