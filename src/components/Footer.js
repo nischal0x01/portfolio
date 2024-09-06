@@ -11,6 +11,7 @@ const Footer = () => {
                         <li><Link to="#experience">Experience</Link></li>
                         <li><Link to="#projects">Projects</Link></li>
                         <li><Link to="#contact">Contact</Link></li>
+                        <li><a href="https://nischal0x01.hashnode.dev">Blogs</a></li>
                     </ul>
                 </div>
             </nav>
