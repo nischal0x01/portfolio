@@ -31,7 +31,7 @@ const Profile = () => (
                 <SocialIcon
                     src="./assets/linkedin.png"
                     alt="My LinkedIn profile"
-                    link="https://linkedin.com/nischal0x01"
+                    link="https://linkedin.com/in/nischal0x01"
                 />
                 <SocialIcon
                     src="./assets/github.png"
