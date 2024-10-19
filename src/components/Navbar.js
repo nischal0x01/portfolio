@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
 
 const Navbar = () => {
     const [isOpen, setIsOpen] = useState(false);
@@ -13,12 +12,11 @@ const Navbar = () => {
             <div className="logo">nischal0<span className='x'>x</span>01</div>
             <div className="desktop-nav">
                 <ul className="nav-links">
-                    <li><Link to="#about">About</Link></li>
-                    <li><Link to="#experience">Experience</Link></li>
-                    <li><Link to="#projects">Projects</Link></li>
-                    <li><Link to="#contact">Contact</Link></li>
-                    <li><a href="https://nischal0x01.hashnode.dev">Blogs</a></li>
-
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="https://nischal0x01.hashnode.dev" target="_blank" rel="noopener noreferrer">Blogs</a></li>
                 </ul>
             </div>
             <div className="hamburger-nav">
@@ -30,10 +28,10 @@ const Navbar = () => {
                     </div>
                     <div className={`menu-links ${isOpen ? 'open' : ''}`}>
                         <ul>
-                            <li><Link to="#about" onClick={toggleMenu}>About</Link></li>
-                            <li><Link to="#experience" onClick={toggleMenu}>Experience</Link></li>
-                            <li><Link to="#projects" onClick={toggleMenu}>Projects</Link></li>
-                            <li><Link to="#contact" onClick={toggleMenu}>Contact</Link></li>
+                            <li><a href="#about" onClick={toggleMenu}>About</a></li>
+                            <li><a href="#experience" onClick={toggleMenu}>Experience</a></li>
+                            <li><a href="#projects" onClick={toggleMenu}>Projects</a></li>
+                            <li><a href="#contact" onClick={toggleMenu}>Contact</a></li>
                         </ul>
                     </div>
                 </div>
