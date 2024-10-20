@@ -1,3 +1,18 @@
+@media (max-width: 768px) {
+    .contact-info-container {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .contact-card {
+        width: 100%;
+    }
+
+    .section-title {
+        font-size: 24px;
+    }
+}
+
 .contact-section {
     padding: 60px 0;
     text-align: center;

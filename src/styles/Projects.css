@@ -1,3 +1,18 @@
+@media (max-width: 768px) {
+    .projects-container {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .project-card {
+        width: 100%;
+    }
+
+    .section-title {
+        font-size: 24px;
+    }
+}
+
 .projects-section {
     padding: 60px 0;
     text-align: center;

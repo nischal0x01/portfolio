@@ -3,30 +3,24 @@
     text-align: center;
 }
 
-.intro-text {
-    font-size: 18px;
-    color: #666;
-}
-
-.section-title {
-    font-size: 32px;
-    margin-bottom: 30px;
-}
-
+/* Container for the tables */
 .experience-container {
     display: flex;
-    justify-content: center;
-    gap: 50px;
+    justify-content: space-around;
+    align-items: flex-start;
+    gap: 30px; /* Spacing between the two tables */
+    flex-wrap: wrap; /* Ensures responsiveness on smaller screens */
 }
 
 .experience-box {
     border: 1px solid #ccc;
     padding: 30px;
     border-radius: 10px;
-    width: 350px;
+    width: 45%; /* Allow two tables to fit in one row */
     text-align: left;
 }
 
+/* Titles inside each box */
 .experience-box h3 {
     font-size: 22px;
     margin-bottom: 20px;
@@ -42,9 +36,13 @@
     font-size: 16px;
 }
 
+/* Media query for smaller screens */
 @media (max-width: 768px) {
     .experience-container {
-        flex-direction: column;
-        align-items: center;
+        flex-direction: column; /* Stack tables vertically on smaller screens */
+    }
+
+    .experience-box {
+        width: 100%; /* Make each box full-width on smaller screens */
     }
 }
