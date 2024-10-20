@@ -4,8 +4,10 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    padding: 80px 20px 20px 20px; /* Adjusted top padding to prevent overlap with navbar */
+    padding: 40px;
     text-align: center;
+    min-height: 100vh; /* Make the profile container take the full height of the screen */
+    box-sizing: border-box;
 }
 
 /* Profile Picture */
@@ -14,8 +16,8 @@
 }
 
 .profile-pic {
-    width: 200px;  /* Smaller size for mobile screens */
-    height: 200px; /* Smaller size for mobile screens */
+    width: 300px;
+    height: 300px;
     border-radius: 50%;
     object-fit: cover;
 }
@@ -27,13 +29,13 @@
 }
 
 .name {
-    font-size: 28px; /* Slightly smaller for mobile */
+    font-size: 36px;
     font-weight: bold;
     margin: 10px 0;
 }
 
 .title {
-    font-size: 18px; /* Smaller for mobile screens */
+    font-size: 24px;
     color: #777;
 }
 
@@ -43,7 +45,8 @@
 }
 
 .btn {
-    padding: 8px 16px;  /* Smaller buttons for mobile */
+    padding: 10px 20px;
+    margin-right: 15px;
     font-size: 14px;
     border: none;
     border-radius: 25px;
@@ -77,37 +80,20 @@
 }
 
 .icon {
-    width: 25px;  /* Smaller icons for mobile */
-    margin-right: 15px;
+    width: 30px;
+    margin-right: 20px;
     cursor: pointer;
 }
 
-/* Ensure responsiveness on smaller screens */
-/* Mobile View - Navbar */
-@media (max-width: 768px) {
-    nav {
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-        height: auto; /* Adjust the height */
+/* Full-Screen Layout for Web View */
+@media (min-width: 769px) {
+    .profile-container {
+        min-height: 100vh; /* Ensure it takes the full screen height */
+        justify-content: center; /* Vertically center the content */
     }
 
-    .nav-links {
-        display: flex;
-        gap: 1rem;
-        font-size: 0.9rem; /* Smaller font for mobile view */
-        flex-direction: row; /* Make items horizontal */
-    }
-
-    .logo {
-        font-size: 1.8rem; /* Slightly smaller logo for mobile view */
-    }
-}
-/* Profile Section - Mobile View */
-@media (max-width: 768px) {
     .profile-pic {
-        width: 250px;  /* Make the profile picture bigger */
-        height: 250px;
+        width: 350px; /* Slightly larger profile picture for larger screens */
+        height: 350px;
     }
 }
-
