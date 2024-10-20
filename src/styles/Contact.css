@@ -1,17 +1,3 @@
-@media (max-width: 768px) {
-    .contact-info-container {
-        flex-direction: column;
-        gap: 20px;
-    }
-
-    .contact-card {
-        width: 100%;
-    }
-
-    .section-title {
-        font-size: 24px;
-    }
-}
 
 .contact-section {
     padding: 60px 0;
@@ -80,3 +66,42 @@
     font-size: 14px;
     color: #666;
 }
+/* Center Contact Info in Mobile View */
+@media (max-width: 768px) {
+    .contact-info-container {
+        flex-direction: column;
+        align-items: center; /* Center the contact cards */
+        gap: 20px;
+    }
+
+    .contact-card {
+        width: 90%; /* Full-width cards in mobile view */
+    }
+}
+/* Footer - Mobile View */
+@media (max-width: 768px) {
+    .footer {
+        text-align: center;
+        padding: 10px 0; /* Reduce padding for smaller footer */
+    }
+
+    .footer ul {
+        display: flex;
+        justify-content: center;
+        gap: 10px; /* Horizontal layout with small gaps */
+    }
+
+    .footer ul li {
+        display: inline;
+    }
+
+    .footer ul li a {
+        font-size: 0.8rem; /* Smaller font for mobile */
+    }
+
+    .footer p {
+        font-size: 0.75rem; /* Reduce the size of footer text */
+    }
+}
+
+

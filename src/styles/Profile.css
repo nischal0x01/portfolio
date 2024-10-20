@@ -83,27 +83,31 @@
 }
 
 /* Ensure responsiveness on smaller screens */
+/* Mobile View - Navbar */
 @media (max-width: 768px) {
-    .profile-pic {
-        width: 150px;  /* Further reduce size on smaller screens */
-        height: 150px;
+    nav {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: auto; /* Adjust the height */
     }
 
-    .name {
-        font-size: 24px;
+    .nav-links {
+        display: flex;
+        gap: 1rem;
+        font-size: 0.9rem; /* Smaller font for mobile view */
+        flex-direction: row; /* Make items horizontal */
     }
 
-    .title {
-        font-size: 16px;
-    }
-
-    .btn {
-        font-size: 12px;
-        padding: 6px 12px;
-    }
-
-    .icon {
-        width: 20px;
-        margin-right: 10px;
+    .logo {
+        font-size: 1.8rem; /* Slightly smaller logo for mobile view */
     }
 }
+/* Profile Section - Mobile View */
+@media (max-width: 768px) {
+    .profile-pic {
+        width: 250px;  /* Make the profile picture bigger */
+        height: 250px;
+    }
+}
+
