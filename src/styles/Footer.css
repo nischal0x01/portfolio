@@ -1,0 +1,45 @@
+/* Desktop Footer Styles */
+.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.footer ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.footer ul li {
+    display: inline;
+}
+
+.footer ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer ul li a:hover {
+    color: #ddd;
+}
+
+.footer p {
+    margin-top: 20px;
+    font-size: 1rem;
+}
+
+/* Mobile Footer Styles */
+@media (max-width: 768px) {
+    .footer ul {
+        flex-direction: column;  /* Stack footer links vertically */
+        gap: 10px;
+    }
+
+    .footer p {
+        font-size: 0.8rem;  /* Reduce text size */
+    }
+}

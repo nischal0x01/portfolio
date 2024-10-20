@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import '../styles/Navbar.css';
 
 const Navbar = () => {
     const [isOpen, setIsOpen] = useState(false);
@@ -41,3 +42,4 @@ const Navbar = () => {
 };
 
 export default Navbar;
+
