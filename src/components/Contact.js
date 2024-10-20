@@ -16,15 +16,7 @@ const Contact = () => {
                     <p><a href="https://www.linkedin.com/nischal0x01" target="_blank" rel="noopener noreferrer">LinkedIn</a></p>
                 </div>
             </div>
-            <footer className="footer">
-                <ul>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#experience">Experience</a></li>
-                    <li><a href="#projects">Projects</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
 
-            </footer>
         </section>
     );
 };
