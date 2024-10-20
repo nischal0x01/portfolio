@@ -1,40 +1,21 @@
-@media (max-width: 768px) {
-    .profile-pic {
-        width: 200px;
-        height: 200px;
-    }
-
-    .name {
-        font-size: 24px;
-    }
-
-    .title {
-        font-size: 18px;
-    }
-
-    .btn {
-        font-size: 12px;
-    }
-}
-
 /* Container Styles */
 .profile-container {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    padding: 40px;
+    padding: 80px 20px 20px 20px; /* Adjusted top padding to prevent overlap with navbar */
     text-align: center;
 }
 
+/* Profile Picture */
 .pic-container {
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 
 .profile-pic {
-
-    width: 400px;
-    height: 400px;
+    width: 200px;  /* Smaller size for mobile screens */
+    height: 200px; /* Smaller size for mobile screens */
     border-radius: 50%;
     object-fit: cover;
 }
@@ -46,13 +27,13 @@
 }
 
 .name {
-    font-size: 36px;
+    font-size: 28px; /* Slightly smaller for mobile */
     font-weight: bold;
     margin: 10px 0;
 }
 
 .title {
-    font-size: 24px;
+    font-size: 18px; /* Smaller for mobile screens */
     color: #777;
 }
 
@@ -62,8 +43,7 @@
 }
 
 .btn {
-    padding: 10px 20px;
-    margin-right: 15px;
+    padding: 8px 16px;  /* Smaller buttons for mobile */
     font-size: 14px;
     border: none;
     border-radius: 25px;
@@ -97,7 +77,33 @@
 }
 
 .icon {
-    width: 30px;
-    margin-right: 20px;
+    width: 25px;  /* Smaller icons for mobile */
+    margin-right: 15px;
     cursor: pointer;
+}
+
+/* Ensure responsiveness on smaller screens */
+@media (max-width: 768px) {
+    .profile-pic {
+        width: 150px;  /* Further reduce size on smaller screens */
+        height: 150px;
+    }
+
+    .name {
+        font-size: 24px;
+    }
+
+    .title {
+        font-size: 16px;
+    }
+
+    .btn {
+        font-size: 12px;
+        padding: 6px 12px;
+    }
+
+    .icon {
+        width: 20px;
+        margin-right: 10px;
+    }
 }
