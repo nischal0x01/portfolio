@@ -1,72 +1,100 @@
-
 .contact-section {
     padding: 60px 0;
     text-align: center;
+    background-color: #f9f9f9;
 }
 
 .intro-text {
     font-size: 18px;
-    color: #666;
+    color: #888;
+    font-weight: 300;
+    margin-bottom: 10px;
 }
 
 .section-title {
-    font-size: 32px;
-    margin-bottom: 30px;
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 40px;
+    color: #333;
 }
 
+/* Contact Info Container for Desktop */
 .contact-info-container {
     display: flex;
     justify-content: center;
-    gap: 50px;
-    margin-bottom: 30px;
+    flex-wrap: wrap;
+    gap: 40px;
+    margin-bottom: 40px;
 }
 
+/* Contact Card */
 .contact-card {
     text-align: center;
-    padding: 20px;
-    border-radius: 10px;
-    background-color: #f4f4f4;
-    width: 300px;
+    padding: 25px;
+    border-radius: 12px;
+    background-color: white;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    width: 280px;
+}
+
+.contact-card:hover {
+    transform: translateY(-10px); /* Subtle hover effect */
 }
 
 .contact-icon {
-    width: 40px;
+    width: 50px;
     margin-bottom: 15px;
 }
 
 .contact-card p a {
     text-decoration: none;
     font-size: 18px;
-    color: black;
+    font-weight: 500;
+    color: rgb(59, 9, 9);
+    transition: color 0.3s ease;
 }
 
+.contact-card p a:hover {
+    color: #333;
+}
+
+/* Footer Section */
 .footer {
-    margin-top: 40px;
+    margin-top: 60px;
+    padding: 20px 0;
+    background-color: #333;
+    color: white;
     text-align: center;
 }
 
 .footer ul {
     list-style: none;
     padding: 0;
-}
-
-.footer ul li {
-    display: inline;
-    margin: 0 10px;
+    margin: 20px 0 10px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
 }
 
 .footer ul li a {
     text-decoration: none;
-    color: black;
     font-weight: 500;
+    color: white;
+    transition: color 0.3s ease;
+}
+
+.footer ul li a:hover {
+    color: #333;
 }
 
 .footer p {
-    margin-top: 20px;
     font-size: 14px;
-    color: #666;
+    color: #bbb;
+    margin-top: 20px;
 }
-/* Center Contact Info in Mobile View */
+
+/* Mobile View */
 @media (max-width: 768px) {
     .contact-info-container {
         flex-direction: column;
@@ -76,32 +104,31 @@
 
     .contact-card {
         width: 90%; /* Full-width cards in mobile view */
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     }
-}
-/* Footer - Mobile View */
-@media (max-width: 768px) {
-    .footer {
-        text-align: center;
-        padding: 10px 0; /* Reduce padding for smaller footer */
+
+    .intro-text {
+        font-size: 16px;
+    }
+
+    .section-title {
+        font-size: 28px;
     }
 
     .footer ul {
-        display: flex;
-        justify-content: center;
-        gap: 10px; /* Horizontal layout with small gaps */
+        flex-direction: column;
+        gap: 15px;
     }
 
     .footer ul li {
-        display: inline;
+        display: block;
     }
 
     .footer ul li a {
-        font-size: 0.8rem; /* Smaller font for mobile */
+        font-size: 0.9rem; /* Smaller font for mobile */
     }
 
     .footer p {
         font-size: 0.75rem; /* Reduce the size of footer text */
     }
 }
-
-
