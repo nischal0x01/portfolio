@@ -52,12 +52,16 @@
     margin: 10px
 }
 
-.btn-download {
+/* .btn-download {
     background-color: white;
     border: 1px solid black;
     color: black;
-}
+} */
 
+.btn-download {
+    background-color: black;
+    color: white;
+}
 .btn-contact {
     background-color: black;
     color: white;
