@@ -23,7 +23,7 @@ const Navbar = () => {
                     <li><a href="#contact">Contact</a></li>
                     <li>
                         <a
-                            href="https://nischal0x01.hashnode.dev"
+                            href="https://medium.com/@nischal0x01"
                             target="_blank"
                             rel="noopener noreferrer"
                         >
